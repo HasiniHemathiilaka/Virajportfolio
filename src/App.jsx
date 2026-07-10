@@ -1,28 +1,26 @@
-import { Navbar } from "@/layout/Navbar";
-import { Hero } from "@/sections/Hero";
-import { About } from "@/sections/About";
-import { Projects } from "@/sections/Projects";
-import { Experience } from "@/sections/Experience";
-import { Testimonials } from "@/sections/Testimonials";
-import { Contact } from "@/sections/Contact";
-import { Footer } from "./layout/Footer";
 
-function App() {
-  
- return (
-    <div className="min-h-screen overflow-x-hidden">
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Skills from './components/Skills';
+import Certifications from './components/Certifications';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+
+export default function App() {
+  return (
+    <div className="tech-bg min-h-screen selection:bg-cyan-500 selection:text-black overflow-x-hidden">
       <Navbar />
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Experience />
-        <Testimonials />
-        <Contact />
-      </main>
-      <Footer />
+      <Hero />
+      <About />
+      <Skills />
+      <Certifications />
+      <Projects />
+      <Contact />
+      <footer className="py-8 text-center text-xs text-gray-600 border-t border-gray-900/50">
+        &lt;HASINI_DEV/&gt; © {new Date().getFullYear()}
+      </footer>
     </div>
   );
 }
-
-export default App
