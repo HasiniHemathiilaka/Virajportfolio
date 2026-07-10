@@ -10,15 +10,15 @@ body {
   font-family: system-ui, -apple-system, sans-serif;
 }
 
-/* Background digital sky dust effect */
+/* Background digital grid sky dust effect */
 .tech-bg {
   background-image: 
-    radial-gradient(circle at 50% 50%, rgba(0, 194, 255, 0.05) 0%, transparent 80%),
-    radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 0);
-  background-size: 100% 100%, 24px 24px;
+    radial-gradient(circle at 50% 50%, rgba(0, 194, 255, 0.04) 0%, transparent 80%),
+    radial-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 0);
+  background-size: 100% 100%, 28px 28px;
 }
 
-/* Glowing text underneath sections */
+/* Glowing text highlight underlines for section titles */
 .glow-title {
   position: relative;
 }
@@ -33,4 +33,34 @@ body {
   background: linear-gradient(90deg, transparent, #00C2FF, transparent);
   box-shadow: 0 0 10px #00C2FF;
   border-radius: 99px;
+}
+
+/* Premium Glassmorphism & Cyber border effects */
+.cyber-card {
+  position: relative;
+  background: rgba(17, 24, 39, 0.4);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cyber-card:hover {
+  border-color: rgba(0, 194, 255, 0.25);
+  box-shadow: 0 0 35px rgba(0, 194, 255, 0.06);
+  transform: translateY(-4px);
+}
+
+/* Custom modern scrollbar design */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00C2FF;
 }
