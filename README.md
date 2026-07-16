@@ -1,16 +1,35 @@
-# React + Vite
+# Modern Engineering Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A high-performance, responsive personal developer portfolio built from scratch to showcase my academic projects, verified professional credentials, and core technical competencies.
 
-Currently, two official plugins are available:
+🔗 **Live Deployment:** [PASTE_YOUR_VERCEL_LINK_HERE]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ Tech Stack & Architecture
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React.js (Functional Components & Modern Hooks)
+- **Build Tool:** Vite (For ultra-fast Hot Module Replacement and optimized production bundling)
+- **Styling:** Tailwind CSS (Utility-first CSS architecture)
+- **Interactive Background:** HTML5 Canvas API (Custom automated Quantum Vector Field with dynamic magnetic mouse attraction)
+- **Forms & Backend Routing:** Web3Forms API API handling secure serverless email dispatch
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ✨ Features
+
+- **Quantum Vector Background:** An interactive, lightweight canvas matrix that creates a deep 3D-space distortion effect by tracking the user's cursor dynamically.
+- **Micro-Interactions:** Custom glassmorphism layout structure (`cyber-card`) paired with high-end, satisfying CSS hover transitions and neon glow button accents.
+- **Dynamic Content Sections:** Fully componentized tracks for Projects, verified Licenses & Certifications, and tailored Skills matrices.
+- **Production-Ready Routing:** Pre-configured Vercel SPA rewrites framework ensuring zero 404 errors during client-side refresh cycles.
+
+---
+
+## 🚀 Getting Started Locally
+
+To run this application on your local machine for development or customization, follow these setup procedures:
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/HasiniHemathiilaka/personal-portfolio.git](https://github.com/HasiniHemathiilaka/personal-portfolio.git)
+cd personal-portfolio
