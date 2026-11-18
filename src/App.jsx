@@ -10,7 +10,6 @@ import Contact from './components/Contact';
 export default function App() {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
 
-  // Tracks desktop cursor position for the real-time background illumination gradient
   useEffect(() => {
     const handleMouseMove = (e) => {
       setMousePos({ x: e.clientX, y: e.clientY });
@@ -21,8 +20,6 @@ export default function App() {
 
   return (
     <div className="tech-bg min-h-screen selection:bg-cyan-500 selection:text-black overflow-x-hidden relative">
-      
-      {/* High-End Dynamic Mouse Follow Spotlight (Hidden on mobile displays for better framework performance) */}
       <div 
         className="pointer-events-none fixed inset-0 z-30 transition-opacity duration-300 hidden md:block"
         style={{
@@ -30,7 +27,6 @@ export default function App() {
         }}
       />
 
-      {/* Main Structural Portfolio Interface Components */}
       <Navbar />
       
       <main>
@@ -42,9 +38,8 @@ export default function App() {
         <Contact />
       </main>
       
-      {/* Structural Developer Terminal Footer Tag */}
       <footer className="py-8 text-center text-xs text-gray-600 border-t border-gray-900/50 bg-[#030712]/40 backdrop-blur-sm">
-        &lt;HASINI_DEV/&gt; © {new Date().getFullYear()}
+        &lt;VIRAJ_STUDIO/&gt; © {new Date().getFullYear()}
       </footer>
     </div>
   );

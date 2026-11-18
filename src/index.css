@@ -10,7 +10,6 @@ body {
   font-family: system-ui, -apple-system, sans-serif;
 }
 
-/* Background digital grid sky dust effect */
 .tech-bg {
   background-image: 
     radial-gradient(circle at 50% 50%, rgba(0, 194, 255, 0.04) 0%, transparent 80%),
@@ -18,7 +17,6 @@ body {
   background-size: 100% 100%, 28px 28px;
 }
 
-/* Glowing text highlight underlines for section titles */
 .glow-title {
   position: relative;
 }
@@ -35,7 +33,6 @@ body {
   border-radius: 99px;
 }
 
-/* Premium Glassmorphism & Cyber border effects */
 .cyber-card {
   position: relative;
   background: rgba(17, 24, 39, 0.4);
@@ -50,7 +47,6 @@ body {
   transform: translateY(-4px);
 }
 
-/* Custom modern scrollbar design */
 ::-webkit-scrollbar {
   width: 8px;
 }

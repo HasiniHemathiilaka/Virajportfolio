@@ -2,53 +2,60 @@ import React from 'react';
 
 const PROJECTS_DATA = [
   {
-    title: "Bridge the Gap Between Human Emotions and Artistic Painting",
-    subtitle: "University of Jaffna | 2026 – Present (Ongoing Research)",
-    description: "Researching AI techniques to transform human emotions into artistic paintings. Exploring emotion recognition and generative AI models for creative image generation. Evaluating model performance through experiments.",
-    tags: ["Python", "Deep Learning", "Machine Learning", "Computer Vision", "Generative AI"],
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600"
+    title: "KRODHA – Kaliyugaya (කලියුගය)",
+    subtitle: "Official Music Video | Mixing, Mastering & Beat Production, Videography & Post-Production",
+    description: "Handled full cinematography, multi-cam editing, color correction & grading, and rhythmic sound-synced cuts for the official music video.",
+    tags: ["Logic Pro", "DaVinci Resolve", "Final Cut Pro", "Color Grading"],
+    image: "https://img.youtube.com/vi/pWQbgs0BJ08/maxresdefault.jpg",
+    link: "https://youtu.be/pWQbgs0BJ08?si=NJa8Oscm1TFMBez_"
   },
   {
-    title: "DevOps Capstone Project",
-    subtitle: "IBM DevOps & Software Engineering Specialization | July 2026",
-    description: "Developed a Python Flask microservice using Test-Driven Development. Containerized and deployed the application with Docker and Kubernetes. Automated testing and deployment using GitHub Actions CI/CD pipelines.",
-    tags: ["Python", "Flask", "Docker", "Kubernetes", "GitHub Actions", "CI/CD", "Agile"],
-    image: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?q=80&w=600"
+    title: "කාලරේඛ - KRODHA (Official Music Video)",
+    subtitle: "YouTube Music Channel | Mixing, Mastering & Beat Production",
+    description: "Original tracks, instrumental compositions, vocal mixing, and master engineering produced using Logic Pro.",
+    tags: ["Ableton Live", "Logic Pro", "FL Studio", "Mix & Master"],
+    image: "https://img.youtube.com/vi/mpwLXx_45uU/maxresdefault.jpg",
+    link: "https://youtu.be/mpwLXx_45uU?si=MuCr3alkvNZ1Dhit"
   },
   {
-    title: "Inventory Management System (IMS)",
-    subtitle: "University of Jaffna | February 2026",
-    description: "Developed the backend using Spring Boot and MySQL. Built secure REST APIs with role-based authentication using Spring Security. Implemented inventory management and approval workflows.",
-    tags: ["Java Spring Boot", "React.js", "Spring Security", "MySQL", "REST APIs", "Jira"],
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600"
+    title: "Me Jeewithe (මේ ජීවිතේ) – Synth Pop Cover",
+    subtitle: "Music Arrangement, Vocals, Mix & Master | Toneark Studios",
+    description: "Reimagined Rookantha Goonatillake's classic into an 80s-inspired synth-pop production. Handled lead cover vocals, electronic synth arrangement, mixing, mastering, and futuristic cyberpunk visual production.",
+    tags: ["Synth-Pop", "Music Arrangement", "Vocals", "Mixing & Mastering", "Visual Production"],
+    image: "https://img.youtube.com/vi/1aaqjKpdsIo/maxresdefault.jpg",
+    link: "https://youtu.be/1aaqjKpdsIo?si=uuvPnxeE8QeiXjkU"
   },
   {
-    title: "JamSync – Real-Time Remote Jam Platform",
-    subtitle: "University of Jaffna | March 2026",
-    description: "Built a WebRTC-based application with real-time audio, video, and text communication. Implemented peer-to-peer connectivity using PeerJS. Designed a highly responsive user interface.",
-    tags: ["WebRTC", "PeerJS", "JavaScript", "HTML5", "CSS3"],
-    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=600"
+    title: "Adobe Stock Creator Portfolio",
+    subtitle: "Commercial Stock Media | Motion & Visual Assets",
+    description: "Designing and contributing high-resolution commercial video assets, motion backgrounds, and creative templates for global creators.",
+    tags: ["Adobe Stock", "After Effects", "Visual Design", "Content Creation"],
+    image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=600",
+    link: "YOUR_FACEBOOK_OR_STOCK_LINK"
   },
   {
-    title: "Laptop Store Web Application",
-    subtitle: "Java Spring Boot Project | October 2025",
-    description: "Developed an e-commerce platform using Java Spring Boot. Implemented authentication, shopping cart features, and product management workflows. Containerized the build using Docker.",
-    tags: ["Java", "Spring Boot", "Docker", "H2 Database", "REST APIs"],
-    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=600"
+    title: "Mathaka Soya (මතක සොයා) – Reggae Cover",
+    subtitle: "Music Arrangement, Vocals, Mix & Master | Toneark Studio",
+    description: "Reimagined Mahiru Senarathne and Prabhasha Weerasinghe's popular Sinhala track into a laid-back reggae cover, handling cover vocals, reggae instrumental arrangement, and mixing & mastering.",
+    tags: ["Reggae", "Music Arrangement", "Vocals", "Mixing & Mastering"],
+    image: "https://img.youtube.com/vi/4OYJXH8PXYU/maxresdefault.jpg",
+    link: "https://youtu.be/4OYJXH8PXYU?si=bXCSx3d3zl7tL9n_"
   },
   {
-    title: "Google Sheets Email Automation",
-    subtitle: "n8n Workflow Automation | August 2025",
-    description: "Built an automated background workflow to fire off targeted Gmail notifications directly from Google Sheets rows. Integrated real-time Google Sheets and Gmail API events.",
-    tags: ["n8n", "Google Sheets API", "Gmail API", "Workflow Automation"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600"
+    title: "Sinhala Cover Song Production – Vol. 1",
+    subtitle: "Facebook Music Release | Vocals, Arrangement & Mix",
+    description: "Produced and recorded a full cover rendition, handling vocal tracking, custom instrumental arrangement, mixing, mastering, and video editing.",
+    tags: ["Cover Song", "Vocals", "Music Arrangement", "Mix & Master"],
+    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=600",
+    link: "https://www.facebook.com/share/v/1KRWUvbPmk/?mibextid=wwXIfr"
   },
   {
-    title: "Laboratory Booking System",
-    subtitle: "University of Jaffna | May 2025",
-    description: "Developed an interactive web application for university laboratory reservation and scheduling. Implemented robust role-based access controls and custom approval workflows.",
-    tags: ["PHP", "MySQL", "HTML", "CSS"],
-    image: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?q=80&w=600"
+    title: "Sinhala Cover Song Production – Vol. 2",
+    subtitle: "Facebook Music Release | Audio Engineering & Video Edit",
+    description: "Rearranged, mixed, and mastered a vocal cover performance paired with synchronized multi-cut video editing and color grading.",
+    tags: ["Cover Song", "Audio Engineering", "Video Editing", "Logic Pro"],
+    image: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?q=80&w=600",
+    link: "https://www.facebook.com/share/v/1DyohFnstv/?mibextid=wwXIfr"
   }
 ];
 
@@ -56,18 +63,16 @@ export default function Projects() {
   return (
     <section id="projects" className="py-24 px-6 max-w-6xl mx-auto">
       <h2 className="text-4xl font-bold text-center text-white mb-20 glow-title">
-        Featured <span className="text-[#00C2FF]">Projects</span>
+        Featured <span className="text-[#00C2FF]">Works</span>
       </h2>
 
-      {/* Grid layout rendering your exact projects */}
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {PROJECTS_DATA.map((project, index) => (
           <div 
             key={index} 
-            className="bg-[#111827]/50 border border-gray-900 rounded-2xl overflow-hidden group hover:border-cyan-500/20 transition-all duration-300 flex flex-col justify-between"
+            className="cyber-card rounded-2xl overflow-hidden group flex flex-col justify-between"
           >
             <div>
-              {/* Dynamic Image Cover with Dark Gradient Overlay */}
               <div className="h-44 overflow-hidden relative border-b border-gray-950">
                 <img 
                   src={project.image} 
@@ -77,7 +82,6 @@ export default function Projects() {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#111827] to-transparent opacity-80" />
               </div>
 
-              {/* Text Information Blocks */}
               <div className="p-6">
                 <h3 className="text-xl font-bold text-white group-hover:text-[#00C2FF] transition duration-300 line-clamp-2">
                   {project.title}
@@ -91,9 +95,8 @@ export default function Projects() {
               </div>
             </div>
             
-            {/* Tag Badge Footer Wrapper */}
-            <div className="p-6 pt-0">
-              <div className="flex flex-wrap gap-1.5 mt-4">
+            <div className="p-6 pt-0 space-y-4">
+              <div className="flex flex-wrap gap-1.5">
                 {project.tags.map((tag, tIdx) => (
                   <span 
                     key={tIdx} 
@@ -103,8 +106,16 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
-            </div>
 
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 text-xs font-mono text-[#00C2FF] hover:text-cyan-300 transition pt-2"
+              >
+                Watch / View Project →
+              </a>
+            </div>
           </div>
         ))}
       </div>
